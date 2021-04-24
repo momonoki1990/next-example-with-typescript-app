@@ -14,13 +14,12 @@ const WithStaticProps = ({ items }: Props) => (
   <Layout title="Users List | Next.js + TypeScript Example">
     <h1>Users List</h1>
     <p>
-      Example fetching data from inside <code>getStaticProps()</code>.
+      ユーザー一覧ページです('pages/uses/index.ts'が'/users'で表示されるらしい)
     </p>
-    <p>You are currently on: /users</p>
     <List items={items} />
     <p>
       <Link href="/">
-        <a>Go home</a>
+        <a>トップページへ</a>
       </Link>
     </p>
   </Layout>

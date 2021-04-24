@@ -8,8 +8,9 @@ type ListDetailProps = {
 
 const ListDetail = ({ item: user }: ListDetailProps) => (
   <div>
-    <h1>Detail for {user.name}</h1>
+    <h1>{user.name}さん！</h1>
     <p>ID: {user.id}</p>
+    {user.age && (<p>age: {user.age}</p>)}
   </div>
 )
 
